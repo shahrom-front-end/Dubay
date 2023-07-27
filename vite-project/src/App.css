@@ -1,0 +1,58 @@
+.cont{
+    width: 90%;
+    margin: auto;
+}
+.bg{
+    background-image: url(./assets/abudabi.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+}
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* background: #fff; */
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .sec2{
+    background-image: url(./assets/bgzard.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    object-fit: cover;
+    /* padding: 50px; */
+  }
